@@ -330,6 +330,54 @@ Transform:
   m_Father: {fileID: 694236877}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1044303133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1044303135}
+  - component: {fileID: 1044303134}
+  m_Layer: 0
+  m_Name: LevelGeneratorSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1044303134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044303133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d79211f0a4ec3d247b3ebb1b063957a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseGridObjectPrefabs:
+  - {fileID: 2666477374326215675, guid: 05110b90c3b0efb4888d4f88b002ad58, type: 3}
+  - {fileID: 25697123086825044, guid: 02dcecc75d714a444891e0938aa7e678, type: 3}
+  - {fileID: 3982381929799141288, guid: a4b24acf164d3d348b08655109491911, type: 3}
+  - {fileID: 8204747766171889689, guid: 42c00b5d160584d4cac391401b99d854, type: 3}
+--- !u!4 &1044303135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044303133}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1775005684
 GameObject:
   m_ObjectHideFlags: 0

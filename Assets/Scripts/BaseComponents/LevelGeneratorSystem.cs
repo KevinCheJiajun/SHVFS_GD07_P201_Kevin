@@ -30,10 +30,12 @@ namespace Hackman_GD07
             {
                 for (int x = 0; x < gridSizeX; x++)
                 {
-                    var objectType = Grid[y, x];
-                    var gridObjectPrefab = BaseGridObjectPrefabs[objectType];
+                    var objectType = Grid[y, x]; // objectType - int
+                    var gridObjectPrefab = BaseGridObjectPrefabs[objectType]; // gridObjectPrefab - BaseGridObject
                     var gridObjectClone = Instantiate(gridObjectPrefab);
+
                     gridObjectClone.GridPosition = new IntVector2(x, -y);
+
                     gridObjectClone.transform.position = new Vector3(gridObjectClone.GridPosition.x, gridObjectClone.GridPosition.y, 0);
                 }
             }

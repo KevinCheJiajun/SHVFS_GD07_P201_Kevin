@@ -23,12 +23,15 @@ public class LINQE : MonoBehaviour
         }
         var enemies = new List<Enemy>()
         {
-            new Enemy(){Name = "1", HP = 922},
-            new Enemy(){Name = "1", HP = 922},
-            new Enemy(){Name = "1", HP = 922},
-            new Enemy(){Name = "1", HP = 922},
+            new Enemy(){Name = "1", HP = 922, Age = 3},
+            new Enemy(){Name = "1", HP = 922, Age = 3},
+            new Enemy(){Name = "1", HP = 922, Age = 3},
+            new Enemy(){Name = "1", HP = 922, Age = 3},
 
         };
+
+        var grouped = enemies.GroupBy(enemy => enemy.Age);
+
         var deadEnemies = enemies.Where(enemy => enemy.HP <= 0);
         var deadEnemiesBORING = new List<Enemy>();
         foreach(var enemy in enemies)
@@ -47,5 +50,6 @@ public class LINQE : MonoBehaviour
     {
         public string Name;
         public int HP;
+        public int Age;
     }
 }

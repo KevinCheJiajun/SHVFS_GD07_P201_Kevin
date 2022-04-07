@@ -12,6 +12,10 @@ namespace Hackman_GD07
         public int y;
 
         public static IntVector2 zero => new IntVector2(0, 0);
+        public static IntVector2 up => new IntVector2(0, 1);
+        public static IntVector2 down => new IntVector2(0, -1);
+        public static IntVector2 left => new IntVector2(-1, 0);
+        public static IntVector2 right => new IntVector2(1, 0);
 
         public IntVector2(int x, int y)
         {

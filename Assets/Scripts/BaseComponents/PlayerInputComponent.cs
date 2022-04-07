@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HackMan : BaseGridMovement
+public class PlayerInputComponent : MovementComponent
 {
     protected override void Update()
     {

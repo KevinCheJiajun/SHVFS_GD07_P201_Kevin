@@ -51,7 +51,7 @@ namespace Hackman_GD07
         public IntVector2 GridPosition;
 
     }
-    public class BaseGridMovement : BaseGridObject
+    public class MovementComponent : BaseGridObject
     {
         public float MoveSPeed;
         protected IntVector2 targetGridPosition;

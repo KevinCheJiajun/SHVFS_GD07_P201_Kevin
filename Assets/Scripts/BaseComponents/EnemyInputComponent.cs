@@ -2,7 +2,7 @@ using Hackman_GD07;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class Ghost : BaseGridMovement
+public class EnemyInputComponent : MovementComponent
 {
     protected override void Update()
     {
